@@ -1,0 +1,165 @@
+html, body, .container
+{
+  background-color: #201E1E;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Ubuntu Condensed';
+}
+
+section, header, footer {
+  background-color: #201E1E;
+  color: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.DefLink
+{
+  text-decoration: none;
+  color: #d0d0d0;
+}
+
+.DefLink:hover
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.UnderlineOnHover:hover
+{
+  text-decoration: underline;
+}
+
+.blured-block
+{
+    backdrop-filter: blur(8px); 
+}
+
+.siteTitle {
+  font-family: 'Ubuntu Condensed';
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.siteSubTitle
+{
+  font-family: 'Ubuntu Condensed';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.EventCard
+{
+  background: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03)) !important;
+  border: "none";
+}
+
+.CardBkg
+{
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 1px;
+}
+
+.CardBkg > div
+{
+  background-color: #201E1E;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.cell:hover
+{
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    cursor: pointer;
+}
+
+.text-underline
+{
+    text-decoration: underline;
+}
+
+.timelabel
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+}
+
+.timelabel:hover
+{
+    background-color: blue;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: white;
+}
+
+.selectedtime
+{
+    background-color: blue;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: white;
+}
+
+input::placeholder {
+  color: white !important;
+  font-size: 1.2em !important;
+}
+
+.carousel-indicators button {
+      background-color: transparent !important;
+      border-radius: 50%;
+      border: 1px solid white !important;
+      height: 10px !important;
+      width: 10px !important;
+}
+
+.carousel-indicators button.active {
+  background-color: white !important;
+}
+
+.hoverBtn:hover
+{
+  background-color: rgba(255, 89, 0, 1) !important;
+  border: 1px solid white !important;
+}
+
+.modalBackground
+{
+  background-color: #201E1E !important;
+  border: 1px solid #201E1E !important;
+  color:white !important;
+}
+
+.modal-header
+{
+  color:white !important;
+}
+
+.custom-modal, .modal-content {
+   border-radius: 0px !important; 
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+  } 
